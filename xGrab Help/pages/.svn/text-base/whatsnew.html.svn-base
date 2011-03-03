@@ -1,0 +1,79 @@
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8">
+		<title>Discover xGrab</title>
+		<meta name="robots" content="anchors">
+		<link href="../css/topicPage.css" type="text/css" rel="stylesheet" media="all">
+	</head>
+
+	<body>
+		<div id="banner">
+			<div id="machelp">
+				<a class="bread" href="help:anchor='access' bookID=xGrab Help">xGrab Help</a>
+			</div>
+			<div id="index">
+				<a class="leftborder" href="index.html">Index</a>
+			</div>
+		</div>
+		<div id="mainbox">
+			<div id="caticon">
+				<img src="../gfx/iconMed.png" alt="xGrab icon">
+			</div>
+			<div id="pagetitle">
+				<h1>Release Notes for xGrab</h1>
+			</div>
+            <p/>
+            <br/>
+            <div summary="Release notes for 1.1.1" id="taskbox">
+				<p>
+					<strong>Version 1.1.1</strong>
+					<ul>
+						<li>Added output resolution to Preferences</li>
+					</ul>
+				</p>
+			</div>
+            <div summary="Release notes for 1.1" id="taskbox">
+				<p>
+					<strong>Version 1.1</strong>
+					<ul>
+						<li>Added hotkey support</li>
+                        <li>Removed cursor label restriction when unregistered. Only then 25 second capture restriction remains</li>
+					</ul>
+				</p>
+			</div>
+            <div summary="Release notes for 1.0.3" id="taskbox">
+				<p>
+					<strong>Version 1.0.3</strong>
+					<ul>
+						<li>Added capture settings to Preferences</li>
+                        <li>Fixed bug which prevented the Preferences to open in Tiger (10.4)</li>
+					</ul>
+				</p>
+			</div>
+            <div summary="Release notes for 1.0.2" id="taskbox">
+				<p>
+					<strong>Version 1.0.2</strong>
+					<ul>
+						<li>Fixed bug which caused cursor to always appear as arrow</li>
+					</ul>
+				</p>
+			</div>
+			<div summary="Release notes for 1.0.1" id="taskbox">
+				<p>
+					<strong>Version 1.0.1</strong>
+					<ul>
+						<li>Fixed capture timeout before capture start in unregistered mode</li>
+					</ul>
+				</p>
+			</div>
+            <div summary="Release notes for 1.0" id="taskbox">
+				<p>
+					<strong>Version 1.0</strong>
+					<ul>
+						<li>First final release</li>
+					</ul>
+				</p>
+			</div>
+        </div>
+	</body>
+</html>

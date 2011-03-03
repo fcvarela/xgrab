@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<title>Creating a Recording</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="recording, capturing, start capture">
+		<meta name="description" content="Learn how to create recordings">
+		<link media="all" rel="stylesheet" href="../css/topicPage.css" />
+	</head>
+	<body>
+		<div id="banner">
+			<div id="machelp">
+				<a class="bread" href="help:anchor='access' bookID=xGrab Help">xGrab Help</a>
+			</div>
+			<div id="index">
+				<a class="leftborder" href="index.html">Index</a>
+			</div>
+		</div>
+		<div id="mainbox">
+			<div id="caticon">
+				<img class="icon" src="../gfx/iconMed.png" alt="xGrab Icon" />
+			</div>
+			<div id="pagetitle">
+				<h1>Creating a Recording</h1>
+			</div>
+            <br/>
+			<p>Creating a new recording is a trivial task. You may, however, want to customize the default compression options. Please follow the steps below to begin a recording session and choosing its compression settings.</p>
+
+			<div summary="How to create a recording" id="taskbox">
+				<p>
+					<strong>To create a recording do one of the following:</strong>
+					<ul>
+						<li>Select "Begin Capture..." from the "Capture" menu</li>
+						<li>Select "Begin Capture..." from the "xG" menu</li>
+					</ul>
+				</p>
+			</div>
+            
+			<div summary="How to customize compression settings" id="taskbox">
+				<p>
+					<strong>To optimize compression settings for performance:</strong>
+					<ol>
+						<li>Open xGrab's Preferences</li>
+                        <li>Select "Apple Animation" from the codec list</li>
+                        <li>Select 12 frames per second</li>
+                        <li>Select key frame every 300 seconds</li>
+                        <li>Select medium quality</li>
+                        <li>Make sure the output resolution matches the screen resolution</li>
+					</ol>
+                </p>
+                <p>
+                    <strong>If you still need to improve capture performance we suggest you decrease your screen resolution to a common capture value. Try one of the following:</strong>
+                    <ol>
+                        <li>800x600</li>
+                        <li>1024x768</li>
+                    </ol>
+				</p>
+			</div>
+
+        </div>
+    </body>
+</html>

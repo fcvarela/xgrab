@@ -1,0 +1,5 @@
+RegistrationError = "Invalid license file.";
+RegistrationErrorReason = "The license is either expired, corrupted or blacklisted.";
+
+UniversalAccessError = "Hotkeys disabled.";
+UniversalAccessErrorReason = "Universal Access is unavailable.";

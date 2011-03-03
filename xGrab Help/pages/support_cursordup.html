@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<title>Cursor duplication when zoomed</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="suppor, cursor, problem">
+		<meta name="description" content="Information on cursor problems">
+		<link media="all" rel="stylesheet" href="../css/topicPage.css" />
+	</head>
+	<body>
+        <a name="support">
+		<div id="banner">
+			<div id="machelp">
+				<a class="bread" href="help:anchor='access' bookID=xGrab Help">xGrab Help</a>
+			</div>
+			<div id="index">
+				<a class="leftborder" href="index.html">Index</a>
+			</div>
+		</div>
+		<div id="mainbox">
+			<div id="caticon">
+				<img class="icon" src="../gfx/iconMed.png" alt="xGrab Icon" />
+			</div>
+			<div id="pagetitle">
+				<h1>Cursor is duplicated if screen is zoomed</h1>
+			</div>
+            <br/>
+			<p>xGrab uses a blazing fast capture method which is implemented in Mac OS X by OpenGL and QuickTime. This method, however, does not provide images with cursors. xGrab circumvents this shortcoming by composing a cursor image on top of the capture buffer.<br>
+                <br>
+                But if a user chooses to zoom in on the screen using ctrl-mouse wheel, then the capture buffer does include a cursor. xGrab is not aware of this not can it be because there are no notifications of current zoom level changes in Mac OS X. Because of this, xGrab always draws a cursor image regardless of whether the capture buffer already includes one.<br>
+                <br>
+                Apple is aware of this problem and as soon as it is addressed, xGrab will be updated to correct the issue.
+            </p>
+			<div summary="How to solve cursor duplication" id="taskbox">
+				<p>
+					<strong>To solve this problem do one of the following:</strong>
+					<ul>
+						<li>Refrain from zooming in while capturing</li>
+						<li>If you feel the need to increase GUI relative appearance, consider reducing your screen resolution instead</li>
+					</ul>
+				</p>
+			</div>
+        </div>
+    </body>
+</html>

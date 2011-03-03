@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8">
+		<title>Discover xGrab</title>
+		<meta name="robots" content="anchors">
+		<link href="../css/topicPage.css" type="text/css" rel="stylesheet" media="all">
+	</head>
+
+	<body>
+		<div id="banner">
+			<div id="machelp">
+				<a class="bread" href="help:anchor='access' bookID=xGrab Help">xGrab Help</a>
+			</div>
+			<div id="index">
+				<a class="leftborder" href="index.html">Index</a>
+			</div>
+		</div>
+		<div id="mainbox">
+			<div id="caticon">
+				<img src="../gfx/iconMed.png" alt="xGrab icon">
+			</div>
+			<div id="pagetitle">
+				<h1>Discover xGrab</h1>
+			</div>
+			<p>xGrab records your screen actions into a movie. It compresses the movie as it goes so there's need to post-process the captured frames. This means that as soon as you stop recording, your movie is ready to play.<br>
+<br>
+xGrab captures your entire screen. That's it. No bells no whistles. But its list of features will expand over time. Later in the development cycle, you'll be able to select a capture region, crop or scale the captured video to a smaller size, just like most other thrice as expensive capture applications.<br>
+<br>
+If you purchase now at a special 12 € price, you'll get free updates with lots of new features until the next major release (that's 2.0) at which point, you'll still be able to upgrade at a special price.</p>
+            <br/>
+            <br/>
+            <br/>
+		</div>
+	</body>
+</html>
